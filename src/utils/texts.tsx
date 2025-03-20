@@ -1,0 +1,4 @@
+export const Iratein = {
+  text: `Results-driven Software Engineer with a proven track record of developing, optimizing, and maintaining high-performance web applications. At iRatein, I played a pivotal role in collaborating with cross-functional teams to deliver scalable and efficient solutions while ensuring smooth functionality and an excellent user experience.
+Proficient in debugging critical issues, optimizing backend logic, and implementing interactive frontend features to enhance usability. Experienced in working with headless architecture, efficiently consuming and integrating APIs to build dynamic, modular, and scalable applications. Skilled in UI/UX adjustments, ensuring visually appealing and responsive designs. Known for meeting tight deadlines without compromising quality and contributing to both backend and frontend development. Passionate about leveraging cutting-edge technologies to build robust digital solutions that drive business success.`,
+};

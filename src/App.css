@@ -1,0 +1,120 @@
+html,
+body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  width: 100%; /* Ensure full width */
+
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header {
+  background: rgb(105, 148, 234);
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  color: white;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.active-link {
+  border: 2px solid white;
+}
+.nav-link:hover {
+  color: white;
+  cursor: default;
+}
+
+.text-intro {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+}
+
+.sub-text {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.icon-container {
+  display: flex; /* Enables horizontal layout */
+  gap: 10px; /* Adjust spacing between icons */
+}
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust size */
+  height: 50px;
+  border-radius: 50%; /* Makes it circular */
+  background-color: rgb(105, 148, 234); /* Blue background */
+  color: white; /* White icon color */
+  font-size: 24px; /* Adjust icon size */
+}
+
+.custom-toggler {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.bar {
+  width: 30px; /* Default width */
+  height: 4px;
+  background-color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.top-bar {
+  width: 25px; /* Make top bar shorter */
+}
+
+.bottom-bar {
+  width: 35px; /* Make bottom bar longer */
+}
+
+.rotate-down {
+  transform: rotate(45deg) translate(5px, 5px);
+  width: 30px; /* Make width equal when crossed */
+}
+
+.rotate-up {
+  transform: rotate(-45deg) translate(5px, -5px);
+  width: 30px; /* Make width equal when crossed */
+}
+
+@media (max-width: 767px) {
+  .text-intro {
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+  }
+
+  .sub-text {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+  }
+}
