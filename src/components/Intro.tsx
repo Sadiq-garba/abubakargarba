@@ -2,7 +2,7 @@ import { Info } from "../models/index";
 import { IMAGES } from "../assets/index";
 import sound from "../sounds/modern.wav";
 
-const Intro = ({ bio, button, image, text }: Info) => {
+const Intro = ({ bio, button, text }: Info) => {
   const goToExternal = (web: string) => {
     if (web === "github") {
       window.location.href = "https://github.com/Sadiq-garba"; // This will navigate to the URL
