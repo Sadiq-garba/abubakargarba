@@ -12,6 +12,7 @@ import Github from "./code/github.png";
 import React from "./code/react.png";
 import Figma from "./code/figma.png";
 import Php from "./code/php.png";
+import Codeigniter from "./code/codeigniter.png";
 
 export const IMAGES = {
   Developer,
@@ -30,6 +31,7 @@ export const DATA = {
   React,
   Figma,
   Php,
+  Codeigniter,
 };
 
 export const CODE = {
@@ -41,6 +43,7 @@ export const CODE = {
     { id: 5, img: Github, name: "Github", info: "" },
     { id: 6, img: React, name: "React", info: "" },
     { id: 7, img: Figma, name: "Figma", info: "" },
-    { id: 8, img: Php, name: "PPHP", info: "" },
+    { id: 8, img: Php, name: "PHP", info: "" },
+    { id: 9, img: Codeigniter, name: "CodeIgniter", info: "" },
   ],
 };

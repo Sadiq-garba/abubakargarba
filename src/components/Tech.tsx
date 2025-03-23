@@ -1,6 +1,8 @@
 import { CODE } from "../assets/index";
+import { useState } from "react";
 
 const Tech = () => {
+  //const [showCode, setShowcode] = useState<Boolean | null>(false);
   return (
     <>
       <div>
@@ -10,7 +12,7 @@ const Tech = () => {
               className="text-center m-3"
               style={{ color: "rgb(105, 148, 234)" }}
             >
-              Tech stacks
+              Tech Stacks
             </h1>
           </div>
 
@@ -21,6 +23,10 @@ const Tech = () => {
               data-aos="slide-right"
               key={item.id}
             >
+              <p className="showCode">
+                <b>{item.name}</b>
+              </p>
+
               <img
                 src={item.img}
                 style={{ width: "100px", height: "100px" }}
